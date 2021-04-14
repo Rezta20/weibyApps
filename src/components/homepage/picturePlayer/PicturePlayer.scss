@@ -1,0 +1,50 @@
+$yellow: rgba(254, 198, 11, 1);
+$black: rgba(27, 26, 26, 1);
+$picture: #005ab5;
+
+body {
+  position: relative;
+}
+
+.arrowWrapper {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: rgba(27, 26, 26, 0.1);
+  }
+}
+
+.picture {
+  background-color: $picture;
+  height: 500px;
+}
+
+.dotWrapper {
+  position: absolute;
+  top: 460px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  div {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10px;
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    border-radius: 50%;
+  }
+}
