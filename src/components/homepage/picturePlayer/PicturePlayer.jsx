@@ -24,6 +24,13 @@ function PicturePlayer() {
         <div className="dot"></div>
         <div className="dot"></div>
       </div>
+      <div className="contentWrapper">
+        <div>
+          微碧愛點餐 <br />
+          <p> 點餐不用等，取餐就要快狠準</p>
+        </div>
+        <button>立即搜尋餐廳</button>
+      </div>
     </div>
   );
 }

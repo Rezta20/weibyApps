@@ -1,5 +1,6 @@
 $yellow: rgba(254, 198, 11, 1);
 $black: rgba(27, 26, 26, 1);
+$white: #ffffff;
 $picture: #005ab5;
 
 body {
@@ -21,7 +22,7 @@ body {
     height: 35px;
     width: 35px;
     border-radius: 50%;
-    color: #ffffff;
+    color: $white;
     background-color: rgba(27, 26, 26, 0.1);
   }
 }
@@ -44,7 +45,24 @@ body {
     margin: 0 10px;
     width: 15px;
     height: 15px;
-    background-color: #ffffff;
+    background-color: $white;
     border-radius: 50%;
+  }
+}
+
+.contentWrapper {
+  position: absolute;
+  color: $white;
+  top: 230px;
+  left: 150px;
+  font-size: 30px;
+  line-height: 20px;
+
+  button {
+    color: $white;
+    background-color: #8bc34a;
+    font-size: 18px;
+    padding: 5px 12px;
+    border-radius: 8px;
   }
 }
