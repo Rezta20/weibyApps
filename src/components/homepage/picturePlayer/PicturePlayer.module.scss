@@ -54,16 +54,27 @@ body {
 .contentWrapper {
   position: absolute;
   color: $white;
-  top: 230px;
+  top: 245px;
   left: 150px;
-  font-size: 30px;
-  line-height: 20px;
+  font-weight: 400;
+  line-height: 15px;
+
+  h1 {
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0;
+  }
+
+  p {
+    font-size: 24px;
+  }
 
   button {
     color: $white;
     background-color: $green;
     font-size: 18px;
     padding: 5px 12px;
+    margin-top: 8px;
     border-radius: 8px;
   }
 }
