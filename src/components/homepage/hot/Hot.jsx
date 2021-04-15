@@ -1,15 +1,14 @@
 import React from "react";
-import "./Hot.module.scss";
+import styles from "./Hot.module.scss";
 
 import HotText from "./hotText/HotText";
-import HotCard from "./hotCard/HotCard";
+import HotCards from "./hotCards/HotCards";
 
 function Hot() {
   return (
-    <div className="hotWrapper">
-      Hot Render
+    <div className={styles.wrapper}>
       <HotText />
-      <HotCard />
+      <HotCards />
     </div>
   );
 }

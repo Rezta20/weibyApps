@@ -1,0 +1,28 @@
+$picture: #005ab5;
+
+.cardsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 30%;
+  margin-top: 15px;
+
+  div {
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: $picture;
+  }
+
+  p {
+    margin: 7px 0 0 7px;
+    font-size: 20px;
+  }
+}
