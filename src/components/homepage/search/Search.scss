@@ -1,0 +1,45 @@
+$green: #8bc34a;
+$gray: #f5f5f5;
+$black: rgba(27, 26, 26, 1);
+$white: #ffffff;
+
+.searchWrapper {
+  background-color: $gray;
+  color: $black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 220px;
+  padding-left: 150px;
+
+  form {
+    width: 100%;
+  }
+
+  label {
+    font-size: 26px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  input {
+    width: 75%;
+    height: 26px;
+    border: 1px solid $black;
+    border-radius: 5px;
+    background-color: $gray;
+    padding-left: 8px;
+  }
+
+  button {
+    width: 100px;
+    height: 32px;
+    margin-left: 16px;
+    border-radius: 5px;
+    border: 1px solid $green;
+    color: $green;
+    background-color: $white;
+  }
+}
