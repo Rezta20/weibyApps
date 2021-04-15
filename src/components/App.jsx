@@ -4,9 +4,9 @@ import Title from "./homepage/title/Title";
 import PicturePlayer from "./homepage/picturePlayer/PicturePlayer";
 import Search from "./homepage/search/Search";
 import Hot from "./homepage/hot/Hot";
-import Place from "./homepage/place/Place";
 import Info from "./homepage/info/Info";
 import Footer from "./homepage/footer/Footer";
+import ForMoreBar from "./homepage/hot/forMoreBar/ForMoreBar";
 
 function App() {
   return (
@@ -15,7 +15,10 @@ function App() {
       <PicturePlayer />
       <Search />
       <Hot />
-      <Place />
+      <ForMoreBar />
+      <Hot />
+      <ForMoreBar />
+
       <Info />
       <Footer />
     </div>
