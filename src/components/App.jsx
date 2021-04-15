@@ -18,7 +18,6 @@ function App() {
       <ForMoreBar />
       <Hot />
       <ForMoreBar />
-
       <Info />
       <Footer />
     </div>
