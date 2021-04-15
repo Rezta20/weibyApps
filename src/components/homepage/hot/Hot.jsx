@@ -1,5 +1,5 @@
 import React from "react";
-import "./Hot.scss";
+import "./Hot.module.scss";
 
 import HotText from "./hotText/HotText";
 import HotCard from "./hotCard/HotCard";

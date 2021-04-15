@@ -1,8 +1,8 @@
 import React from "react";
-import "./HotText.scss";
+import styles from "./HotText.module.scss";
 
 function HotText() {
-  return <div>hottext</div>;
+  return <div className={styles.wrapper}></div>;
 }
 
 export default HotText;
