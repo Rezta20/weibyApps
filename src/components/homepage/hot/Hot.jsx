@@ -3,7 +3,6 @@ import styles from "./Hot.module.scss";
 
 import HotText from "./hotText/HotText";
 import HotCards from "./hotCards/HotCards";
-import ForMoreBar from "./forMoreBar/ForMoreBar";
 
 function Hot() {
   return (

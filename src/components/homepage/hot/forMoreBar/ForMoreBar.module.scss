@@ -1,9 +1,11 @@
+$darkGray: #263338;
+
 .wrapper {
   margin-top: 15px;
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: #263338;
+  background-color: $darkGray;
   color: white;
 
   p {
